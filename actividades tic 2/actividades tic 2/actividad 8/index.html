@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saludo según la Hora</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Saludo según la Hora</h1>
+
+    <label for="inputHoraSwitch">Introduce la hora (24 horas): </label>
+    <input type="number" id="inputHoraSwitch"><br>
+    <button onclick="MensajeSwitch()">Mostrar Saludo (Switch)</button>
+
+    <br><br>
+
+    <label for="inputHoraIf">Introduce la hora (24 horas): </label>
+    <input type="number" id="inputHoraIf"><br>
+    <button onclick="MensajeIf()">Mostrar Saludo (If-Else)</button>
+
+    <p id="resultadoSwitch"></p>
+    <p id="resultadoIf"></p>
+
+    <script src="./script.js"></script>
+</body>
+</html>
